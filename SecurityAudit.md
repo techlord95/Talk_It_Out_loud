@@ -57,7 +57,7 @@ Replace the rewrite proxy with a dedicated server-side API route (`/api/ws/gemin
 The `.env.local` file contains a live Gemini API key:
 
 ```
-GEMINI_API_KEY=AIzaSyC_D1KM5TslIVJIHylQc2Mzruq8QV6kDfo
+GEMINI_API_KEY=AIzaSyC_D1KM5TslIVJIHylQc2Mzruq8QV6kDfo_REDACTED
 ```
 
 Although `.env*` is listed in `.gitignore`, the file currently exists on disk with a real key. If this repository has ever been committed with this file (even once), the key is permanently in git history.

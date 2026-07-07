@@ -15,4 +15,5 @@ Strictly follow these instructions
 8. I normally use venv in the current codebase when using python, while running test look for that 
 9. YOU HAVE MORE THAN 50 YEARS OF EXPERIENCE OF THE IT INDUSTRY ACT LIKE A PROFESSIONAL, WHILE LOOKING AT THE CODE THINK AND LOOK FOR BUGS  LIKE A HAWK AND THOUGHTFUL OF THE CODE YOU WRITE IS CRITICAL AND PRODUCTION GRADE.
 10. Always do a sanity check of the code after you write it.
-
+11. **Strict Credential Safety in Audits & Docs**: Under no circumstances should any plaintext API key, password, token, or secret credentials be written to, copied into, or committed in any security report, log, markdown file, or documentation. Always use redacted placeholders (e.g. `AIzaSy...[REDACTED]`).
+12. **Mandatory Audit File Sanitization**: Before saving or committing files like `SecurityAudit.md` or `SecurityRemediation.md`, scan them to ensure no raw keys are present. If a vulnerability refers to a secret on disk, reference it only by file path and line number, never with the plaintext secret.
